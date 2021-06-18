@@ -3,15 +3,6 @@ README.md file
 
     Sample tenants code for Fiserv Dev Studio
 
-## Run Tenant Application
-- To Start tenant:
-```Shell
-    ./start.sh
-```
-- Run unittest
-```Shell
-    ./unittest.sh
-```
 ## Directory structure
 - /docs - all markdown files are to be placed in this directory
 - /assets - upload your static assets like image etc here
@@ -21,22 +12,3 @@ README.md file
 
 ## Configurations
 - /resources/config.yml : Update below configuration to point to tenant content github repo
-```Shell 
-
-contentpath:
-  apiSpecYamlFile:            "api_swagger.yaml"
-  tenantProviderApiFile:     "tenant_api.json"
-  productLayoutFile:          "product_layout.yaml"
-
-
-github:
-  gitHubRawContentHost:       "https://raw.githubusercontent.com"
-  gitHubSourceOwner:          "Fiserv"
-  gitHubSourceRepo:           "<tenant_repo>"
-  gitHubContentBranch:        "main" 
-  gitHubAuthToken:            "<auth_token>"
-  gitHubUser:                 "<username>"
-
-    ```
-## Code
-- routers.go: Contains the routes that tenants need to implement.
