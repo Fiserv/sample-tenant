@@ -1,6 +1,6 @@
 # Getting Started
 
-Cards APIs support the creation, maintenance and retrieval of card records. This guide provides quick steps to use our Cards APIs during integration with your applications.
+{Insert Your API Name} APIs support the creation, maintenance and retrieval of card records. This guide provides quick steps to use our Cards APIs during integration with your applications.
 
 Following topics are covered in this guide:
 * Registration
