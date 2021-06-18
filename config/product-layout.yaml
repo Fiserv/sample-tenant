@@ -1,47 +1,47 @@
 header:
   productionDescription: > 
-     <p>Cards is an API domain within our Open Banking infrastructure. It consists of APIs that support the creation, maintenance and retrieval of card records. Developers will want to use these APIs if they’re looking to create or integrate applications that include the ability to offer cards-based money movement.</p>
+     <p> Insert a product description here.</p>
 steps:  
   learnSteps:
     - title: Learn
       description: >
-        Use the Fiserv Developer Studio to discover your next integration project. Developers can explore the APIs in our intelligent API Explorer.
+        Insert description here.
       link:
   buildSteps:
     - title: Build
       description: >
-        Leverage our sample code to get your application coded quickly. Developers can employ our Sandbox environment to create robust solutions.
+        Insert description here.
       link:
   validateSteps:
     - title: Validate
       description: >
-        Test your application end-to-end in our latest Sandbox environment. Use our state-of-the-art features to make your application more robust.
+        Insert description here.
       link:
   deploySteps:
     - title: deploy
       description: >
-        When your application is ready for deployment, submit it for our automated certification. Once certified, it can be deployed to the production.
+        Insert description here.
       link:
 featuredFeatures:
   - title: Industry Standards
     description: >
-      Our APIs leverage the common financial object definitions of the Afinis IFX 2.3 Business Messaging Specification (BMS).
+      Insert description here.
   - title: REST APIs
     description: >
-      Our lightweight, REST APIs are ideal for the digital channels consumers prefer.
+      Insert description here.
   - title: Functionality
     description: >
-      The APIs of this domain support the creation, maintenance and retrieval of card records, and support card activation, limit validation, status, PIN changes and transaction history. 
+      Insert description here.
 benefits:
   - title: Market Reach
     description: >
-      Pre-integrate your app to Fiserv platforms used by more than one in three financial institutions in the U.S. Reach 100 million digital banking users.
+      Insert description here.
   - title: Simplified Integration.
     description: >
-      More than 25,000 fields from Fiserv banking solutions are exposed through normalized APIs, enabling once-and-done integration. No point-to-point integration to individual platforms.
+     Insert description here.
   - title: Co-Innovation
     description: >
-      Collaborate with financial institutions to create highly personalized touchpoints and customer journeys.
+      Insert description here.
 featuredAPIs:
   - name: Charges
     description: Used to submit a charge transaction.
@@ -130,11 +130,11 @@ featuredAPIs:
     language: Curl
     link: link to API Explorer   
 useCases:
-  - title: Enterprise Cards-Based Disbursements
-    subtitle: Enterprise Cards-Based Disbursements
+  - title: Title 1
+    subtitle: Subtitle 1
     description: > 
-      Partner with financial institutions to serve companies that require cards-based disbursements for insurance claims payments, merchant rebates, loyalty rewards, employee bonuses, expense reimbursements, loan payouts, refunds and so forth.
-  - title: Affinity Card Marketing
-    subtitle: Affinity Card Marketing
+      Insert description here.
+  - title: Title 2
+    subtitle: Subtitle 2
     description: > 
-      Partner with financial institutions to offer cards that appeal to unique constituencies. 
+      Insert description here. 
