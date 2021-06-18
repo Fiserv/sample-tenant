@@ -1,5 +1,5 @@
 README.md file
-# Fiserv Developer Studio Sample Repo
+# Fiserv Developer Studio Sample Repo: PetStore Example
 
     Sample tenants code for Fiserv Dev Studio
 
