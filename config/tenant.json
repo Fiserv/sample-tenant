@@ -1,46 +1,46 @@
 {
-  "title": "Cards",
-  "name": "Cards",
+  "title": "Title",
+  "name": "Name",
   "brand": "Fiserv",
-  "brandLogoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
-  "solution": "openBanking",
-  "brandDescription": "Explore and use our APIs to build, test, certify, and deploy solutions pre-integrated to our market-leading account processing platforms.",
+  "brandLogoURL": "URL",
+  "solution": "Solution",
+  "brandDescription": "Description",
   "categories": [
     {
-      "name": "businessFunction",
-      "value": "Business Function",
+      "name": "name",
+      "value": "value",
       "subcategories": [
         {
-          "name": "deposits",
-	  "value": "Deposits",
-	  "description": "APIs that make it possible to create, modify or retrieve records for deposit accounts and transactions"
+          "name": "name",
+	  "value": "value",
+	  "description": "description"
         },
         {
-          "name": "loans",
-	  "value": "Loans",
-	  "description": "APIs that make it possible to create, modify or retrieve records for loan accounts and transactions"
+          "name": "name",
+	  "value": "value",
+	  "description": "description"
         },
         {
-          "name": "bankServicing",
-          "value": "Bank Servicing",
-          "description": "APIs that support account processing functions in the back office, branch and call center"
+          "name": "name",
+          "value": "value",
+          "description": "decsription"
         }
       ]
     }
   ],
    "apiVersions": [
       {
-        "version": "11.0.0",
-        "versionType": "major",
-        "releaseNotesPath": "/release-notes/release-notes-11.0.0.md",
-        "apiSpecFileNames": ["CardService","CardAccountRelationshipService"]
+        "version": "XX.XX.XX",
+        "versionType": "type",
+        "releaseNotesPath": "/directory1/directory2",
+        "apiSpecFileNames": ["File1","File2"]
       }
   ],
   "product": {
     "featured": true,
-    "logoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
-    "description": "Cards is an API domain within our Open Banking infrastructure. It consists of APIs that support the creation, maintenance and retrieval of card records. Developers will want to use these APIs if they’re looking to create or integrate applications that include the ability to offer cards-based money movement.",
-    "longDescription": "Cards is an API domain within our Open Banking infrastructure. It consists of APIs that support the creation, maintenance and retrieval of card records. Developers will want to use these APIs if they’re looking to create or integrate applications that include the ability to offer cards-based money movement.",
+    "logoURL": "URL",
+    "description": "description",
+    "longDescription": "longDecription",
     "apiSpecification": "/v1/apis",
     "layout": "/v1/layouts",
     "documentation": "/v1/docs",
@@ -49,19 +49,19 @@
     "sandbox": "/v1/sandboxrun",
     "feature": [
       {
-        "name": "sandBox",
+        "name": "name",
         "value": true
       },
       {
-        "name": "plugins",
+        "name": "name",
         "value": false
       },
       {
-        "name": "industryOptionsAPIExplorer",
+        "name": "name",
         "value": false
       },
       {
-        "name": "editParameterAPIExplorer",
+        "name": "name",
         "value": true
       }
     ]
