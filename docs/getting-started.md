@@ -1,6 +1,3 @@
 # Getting Started 
 
-## Welcome to the Sample
-
-
-    Comming Soon...
+## Welcome to the Pet Store
