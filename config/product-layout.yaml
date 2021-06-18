@@ -1,0 +1,140 @@
+header:
+  productionDescription: > 
+     <p>Cards is an API domain within our Open Banking infrastructure. It consists of APIs that support the creation, maintenance and retrieval of card records. Developers will want to use these APIs if they’re looking to create or integrate applications that include the ability to offer cards-based money movement.</p>
+steps:  
+  learnSteps:
+    - title: Learn
+      description: >
+        Use the Fiserv Developer Studio to discover your next integration project. Developers can explore the APIs in our intelligent API Explorer.
+      link:
+  buildSteps:
+    - title: Build
+      description: >
+        Leverage our sample code to get your application coded quickly. Developers can employ our Sandbox environment to create robust solutions.
+      link:
+  validateSteps:
+    - title: Validate
+      description: >
+        Test your application end-to-end in our latest Sandbox environment. Use our state-of-the-art features to make your application more robust.
+      link:
+  deploySteps:
+    - title: deploy
+      description: >
+        When your application is ready for deployment, submit it for our automated certification. Once certified, it can be deployed to the production.
+      link:
+featuredFeatures:
+  - title: Industry Standards
+    description: >
+      Our APIs leverage the common financial object definitions of the Afinis IFX 2.3 Business Messaging Specification (BMS).
+  - title: REST APIs
+    description: >
+      Our lightweight, REST APIs are ideal for the digital channels consumers prefer.
+  - title: Functionality
+    description: >
+      The APIs of this domain support the creation, maintenance and retrieval of card records, and support card activation, limit validation, status, PIN changes and transaction history. 
+benefits:
+  - title: Market Reach
+    description: >
+      Pre-integrate your app to Fiserv platforms used by more than one in three financial institutions in the U.S. Reach 100 million digital banking users.
+  - title: Simplified Integration.
+    description: >
+      More than 25,000 fields from Fiserv banking solutions are exposed through normalized APIs, enabling once-and-done integration. No point-to-point integration to individual platforms.
+  - title: Co-Innovation
+    description: >
+      Collaborate with financial institutions to create highly personalized touchpoints and customer journeys.
+featuredAPIs:
+  - name: Charges
+    description: Used to submit a charge transaction.
+    type: POST
+    route: /payments/v1/charges
+    codeSample: '[json
+                  {
+                     "amount":{
+                        "total":"12.04",
+                        "currency":"USD"
+                     },
+                     "source":{
+                        "sourceType":"PaymentCard",
+                        "card":{
+                           "cardData":"4005550000000019",
+                           "expirationMonth":"02",
+                           "expirationYear":"2035",
+                           "securityCode":"123",
+                           "securityCodeIndicator":"PROVIDED"
+                        }
+                     },
+                     "transactionDetails":{
+                        "captureFlag":true
+                     }
+                  }]'
+    language: Curl
+    link: link to API Explorer
+  - name: Tokenization
+    description: Transaction data is protected by a randomly-generated identifier known as a "token".
+    type: POST
+    route: /payments-vas/v1/tokens
+    codeSample: '[json
+                  {
+                     "amount":{
+                        "total":"1.00",
+                        "currency":"USD"
+                     },
+                     "source":{
+                        "sourceType":"PaymentCard",
+                        "card":{
+                           "cardData":"4005550000000019",
+                           "expirationMonth":"02",
+                           "expirationYear":"2035",
+                           "securityCode":"123"
+                        }
+                     },
+                     "transactionDetails":{
+                        "captureFlag":false,
+                        "createToken":true,
+                        "tokenProvider":"RSA"
+                     }
+                  }]'
+    language: Curl
+    link: link to API Explorer 
+  - name: Verifications
+    description: Confirm account validity and provide notification.
+    type: POST
+    route: /payments-vas/v1/accounts/verification
+    codeSample: '[json
+                  {
+                     "source":{
+                        "sourceType":"PaymentCard",
+                        "card":{
+                           "cardData":"4005550000000019",
+                           "expirationMonth":"02",
+                           "expirationYear":"2035"
+                        }
+                     }
+                  }]'
+    language: Curl
+    link: link to API Explorer  
+  - name: Capture
+    description: Capture pending authorization for settlement post authorization.
+    type: POST
+    route: /payments/v1/charges/{transactionId}/capture
+    codeSample: '[json
+                  {
+                    "amount": {
+                      "total": "12.04",
+                      "currency": "USD"
+                    },
+                    "transactionDetails": {
+                      "captureFlag": true
+                    }
+                  }]'
+    language: Curl
+    link: link to API Explorer   
+useCases:
+  - title: Enterprise Cards-Based Disbursements
+    subtitle: Enterprise Cards-Based Disbursements
+    description: > 
+      Partner with financial institutions to serve companies that require cards-based disbursements for insurance claims payments, merchant rebates, loyalty rewards, employee bonuses, expense reimbursements, loan payouts, refunds and so forth.
+  - title: Affinity Card Marketing
+    subtitle: Affinity Card Marketing
+    description: > 
+      Partner with financial institutions to offer cards that appeal to unique constituencies. 

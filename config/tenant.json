@@ -1,0 +1,69 @@
+{
+  "title": "Cards",
+  "name": "Cards",
+  "brand": "Fiserv",
+  "brandLogoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
+  "solution": "openBanking",
+  "brandDescription": "Explore and use our APIs to build, test, certify, and deploy solutions pre-integrated to our market-leading account processing platforms.",
+  "categories": [
+    {
+      "name": "businessFunction",
+      "value": "Business Function",
+      "subcategories": [
+        {
+          "name": "deposits",
+	  "value": "Deposits",
+	  "description": "APIs that make it possible to create, modify or retrieve records for deposit accounts and transactions"
+        },
+        {
+          "name": "loans",
+	  "value": "Loans",
+	  "description": "APIs that make it possible to create, modify or retrieve records for loan accounts and transactions"
+        },
+        {
+          "name": "bankServicing",
+          "value": "Bank Servicing",
+          "description": "APIs that support account processing functions in the back office, branch and call center"
+        }
+      ]
+    }
+  ],
+   "apiVersions": [
+      {
+        "version": "11.0.0",
+        "versionType": "major",
+        "releaseNotesPath": "/release-notes/release-notes-11.0.0.md",
+        "apiSpecFileNames": ["CardService","CardAccountRelationshipService"]
+      }
+  ],
+  "product": {
+    "featured": true,
+    "logoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
+    "description": "Cards is an API domain within our Open Banking infrastructure. It consists of APIs that support the creation, maintenance and retrieval of card records. Developers will want to use these APIs if they’re looking to create or integrate applications that include the ability to offer cards-based money movement.",
+    "longDescription": "Cards is an API domain within our Open Banking infrastructure. It consists of APIs that support the creation, maintenance and retrieval of card records. Developers will want to use these APIs if they’re looking to create or integrate applications that include the ability to offer cards-based money movement.",
+    "apiSpecification": "/v1/apis",
+    "layout": "/v1/layouts",
+    "documentation": "/v1/docs",
+    "documenttree": "/v1/docs",
+    "documenttreeV2": "/v2/docs",
+    "sandbox": "/v1/sandboxrun",
+    "feature": [
+      {
+        "name": "sandBox",
+        "value": true
+      },
+      {
+        "name": "plugins",
+        "value": false
+      },
+      {
+        "name": "industryOptionsAPIExplorer",
+        "value": false
+      },
+      {
+        "name": "editParameterAPIExplorer",
+        "value": true
+      }
+    ]
+  }
+}
