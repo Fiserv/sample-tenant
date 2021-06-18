@@ -1,39 +1,34 @@
 {
-  "title": "Title",
-  "name": "Name",
-  "brand": "Fiserv",
+  "title": "Pet Store",
+  "name": "PetStore",
+  "brand": "PetStore",
   "brandLogoURL": "URL",
-  "solution": "Solution",
-  "brandDescription": "Description",
+  "solution": "smBMerchants",
+  "brandDescription": "Fiserv, Inc. is a global provider of payments and financial services technology solutions. The Company provides account processing and digital banking solutions, card issuer processing and network services, payments, e-commerce, merchant acquiring and processing, and the Clover cloud-based point-of-sale solution. The Company operates through three segments: Merchant Acceptance (Acceptance), Financial Technology (Fintech) and Payments and Network (Payments).",
   "categories": [
     {
-      "name": "name",
-      "value": "value",
+      "name": "businessTypes",
+      "value": "Business Types",
       "subcategories": [
         {
-          "name": "name",
-	  "value": "value",
-	  "description": "description"
-        },
-        {
-          "name": "name",
-	  "value": "value",
-	  "description": "description"
-        },
-        {
-          "name": "name",
-          "value": "value",
-          "description": "decsription"
+          "name": "valueAddedServices",
+          "value": "Value Added Services"
         }
       ]
     }
   ],
-   "apiVersions": [
+  "apiVersions": [
       {
-        "version": "XX.XX.XX",
-        "versionType": "type",
-        "releaseNotesPath": "/directory1/directory2",
-        "apiSpecFileNames": ["File1","File2"]
+        "version": "1.0.0",
+        "versionType": "major",
+        "releaseNotesPath": "/release-notes/release-notes-1.0.0.md",
+        "apiSpecFileNames": ["api-1.0.0"]
+      },
+     {
+        "version": "1.0.1",
+        "versionType": "minor",
+        "releaseNotesPath": "/release-notes/release-notes-1.0.1.md",
+        "apiSpecFileNames": ["api-1.0.1"]
       }
   ],
   "product": {
