@@ -1,7 +1,7 @@
 README.md file
-# Fiserv Developing Studio Sample Repo
+# Fiserv Developer Studio Sample Repo
 
-    Sample tenants code for Fiserv Dev Portal
+    Sample tenants code for Fiserv Dev Studio
 
 ## Run Tenant Application
 - To Start tenant:
