@@ -1,2 +1,2 @@
 ## Parrots
-![parrots-5350976 1920]
+![parrots 5350976 1920]
