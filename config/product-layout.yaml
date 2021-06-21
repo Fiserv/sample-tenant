@@ -1,134 +1,162 @@
 header:
   productionDescription: > 
-     <p> Insert a product description here.</p>
+     <p> This is a sample server Petstore server.</p>
 steps:  
   learnSteps:
     - title: Learn
       description: >
-        Insert description here.
+        Quickly find the right integration, experiment with our APIs, and discover guided 
+        tutorials for your next project.
       link:
   buildSteps:
     - title: Build
       description: >
-        Insert description here.
+        Leverage sample code, comprehensive SDKs, plug-ins, and sandbox testing to 
+        complete your project fast.
       link:
   validateSteps:
     - title: Validate
       description: >
-        Insert description here.
+        Identify parts of your project that need attention and solutions end-to-end in 
+        our advanced Sandbox.
       link:
   deploySteps:
     - title: deploy
       description: >
-        Insert description here.
+        Submit your project for automated certification and deploy to Production.
       link:
 featuredFeatures:
-  - title: Industry Standards
+  - title: Pets
     description: >
-      Insert description here.
-  - title: REST APIs
+      Quickly add, update, find, or delete your pets. You can manage all of your pets using this feature as well as upload pictures.
+    tags: ["tag1", "tag2"]
+    bullets: ["Increase payment security and reduce risk", "No need to store personal customer information", "Less operational costs", "Improved customer experience"]
+    links: ["docs/Resources/API-Documents/Payments_VAS/Payment-Token.md"]
+  - title: Store
     description: >
-      Insert description here.
-  - title: Functionality
+      Place, find, or delete orders at your store. You can manage inventory and keep track of your store.
+    tags: ["tag1", "tag2"]
+    bullets: ["Faster acceptance than credit or debit", "Biometric security", "Global offering and acceptance"]
+    links: ["docs/Online-Mobile-Digital/Wallets-AltPayments/Apple-Pay/Apple-Pay.md"]
+  - title: User
     description: >
-      Insert description here.
+      You are also able to create, get, update, or delete your users. You are also able to log-in and log-out a user.
+    tags: ["tag1", "tag2"]
+    bullets: ["Modern technology stack", "Automated backoffice", "Fast testing, certification and implementation"]
+    links: ["docs/Resources/API-Documents/Use-Our-APIs.md"]
 benefits:
-  - title: Market Reach
+  - title: Organziation
     description: >
-      Insert description here.
-  - title: Simplified Integration.
+      You can manage your pets, users, and orders in a concise simple manner.
+  - title: Increase Sales
     description: >
-     Insert description here.
-  - title: Co-Innovation
+     A simplified platform allows for customers to place orders with ease.
+  - title: Innovation
     description: >
-      Insert description here.
+      Online petstores are cool.
 featuredAPIs:
-  - name: Charges
-    description: Used to submit a charge transaction.
-    type: POST
-    route: /payments/v1/charges
+  - name: Add Pet
+    description: Used to add a pet.
+    type: post
+    path: /pet
     codeSample: '[json
-                  {
-                     "amount":{
-                        "total":"12.04",
-                        "currency":"USD"
-                     },
-                     "source":{
-                        "sourceType":"PaymentCard",
-                        "card":{
-                           "cardData":"4005550000000019",
-                           "expirationMonth":"02",
-                           "expirationYear":"2035",
-                           "securityCode":"123",
-                           "securityCodeIndicator":"PROVIDED"
-                        }
-                     },
-                     "transactionDetails":{
-                        "captureFlag":true
-                     }
-                  }]'
+                   {
+                    "id": 0,
+                    "category": {
+                      "id": 0,
+                      "name": "string"'
+                    },
+                    "name": "doggie",
+                    "photoUrls": [
+                      "string"
+                    ],
+                    "tags": [
+                      {
+                        "id": 0,
+                        "name": "string"
+                      }
+                    ],
+                    "status": "available"
+                    }
+                  ]'
     language: Curl
     link: link to API Explorer
-  - name: Tokenization
-    description: Transaction data is protected by a randomly-generated identifier known as a "token".
-    type: POST
-    route: /payments-vas/v1/tokens
+  - name: Update Pet
+    description: Updates a pet
+    type: put
+    path: /payments-vas/v1/tokens
     codeSample: '[json
-                  {
-                     "amount":{
-                        "total":"1.00",
-                        "currency":"USD"
-                     },
-                     "source":{
-                        "sourceType":"PaymentCard",
-                        "card":{
-                           "cardData":"4005550000000019",
-                           "expirationMonth":"02",
-                           "expirationYear":"2035",
-                           "securityCode":"123"
-                        }
-                     },
-                     "transactionDetails":{
-                        "captureFlag":false,
-                        "createToken":true,
-                        "tokenProvider":"RSA"
-                     }
-                  }]'
+                   {
+                    "id": 0,
+                    "category": {
+                      "id": 0,
+                      "name": "string"'
+                    },
+                    "name": "doggie",
+                    "photoUrls": [
+                      "string"
+                    ],
+                    "tags": [
+                      {
+                        "id": 0,
+                        "name": "string"
+                      }
+                    ],
+                    "status": "available"
+                    }
+                  ]'
     language: Curl
     link: link to API Explorer 
-  - name: Verifications
-    description: Confirm account validity and provide notification.
-    type: POST
-    route: /payments-vas/v1/accounts/verification
+  - name: Place Order
+    description: Places order for a pet
+    type: post
+    path: /store/order
     codeSample: '[json
                   {
-                     "source":{
-                        "sourceType":"PaymentCard",
-                        "card":{
-                           "cardData":"4005550000000019",
-                           "expirationMonth":"02",
-                           "expirationYear":"2035"
-                        }
-                     }
-                  }]'
+                    "id": 0,
+                    "petId": 0,
+                    "quantity": 0,
+                    "shipDate": "2021-06-21T21:55:37.319Z",
+                    "status": "placed",
+                    "complete": true
+                   }
+                  ]'
     language: Curl
     link: link to API Explorer  
-  - name: Capture
-    description: Capture pending authorization for settlement post authorization.
-    type: POST
-    route: /payments/v1/charges/{transactionId}/capture
+  - name: Find Order
+    description: Find purchase order by ID
+    type: get
+    path: /store/order/{orderID}
     codeSample: '[json
                   {
-                    "amount": {
-                      "total": "12.04",
-                      "currency": "USD"
-                    },
-                    "transactionDetails": {
-                      "captureFlag": true
-                    }
-                  }]'
+                    "id": 0,
+                    "petId": 0,
+                    "quantity": 0,
+                    "shipDate": "2021-06-21T21:57:19.714Z",
+                    "status": "placed",
+                    "complete": true
+                  }
+                  ]'
     language: Curl
-    link: link to API Explorer   
+    link: link to API Explorer
+    - name: Create user
+    description: Creates a new user
+    type: post
+    path: /user
+    codeSample: '[json
+                  {
+                    "id": 0,
+                    "username": "string",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "password": "string",
+                    "phone": "string",
+                    "userStatus": 0
+                   }
+                  ]'
+    language: Curl
+    link: link to API Explorer
 useCases:
   - title: Title 1
     subtitle: Subtitle 1
