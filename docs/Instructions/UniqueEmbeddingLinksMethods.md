@@ -7,5 +7,5 @@
      "[Doc](?path=docs/Transactions/Charges.md)"
   ## Example:
   - [AddingImages.md](https://github.com/Fiserv/sample/blob/develop/docs/Instructions/AddingImages.md)
-  - [LinktoAdditionalMDSupport](https://github.com/Fiserv/sample/blob/develop/docs/Instructions/LinkToAdditionalMDSupport.md)
+  - [LinktoAdditionalMDSupport.md](https://github.com/Fiserv/sample/blob/develop/docs/Instructions/LinkToAdditionalMDSupport.md)
 
