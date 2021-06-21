@@ -7,11 +7,11 @@ README.md file
 - /assets - upload your static assets like image etc. here
 - /assets/images - upload your images such as your logo etc. here
 - /config - add your config files here
-    1. document-explorer-definition.yaml: Yaml File that decribes the structure of files in the /docs
+    1. document-explorer-definition.yaml: Provide explorer structure for 
     2. product_layout.yaml: Yaml spec for product layout page
-    3. tenant_api.json: Tenant Provider API
+    3. tenant.json: Tenant Provider API
 - /docs - all markdown files are to be placed in this directory
-- /references - include your spec files for various versions you intend to support 
+- /references/api-[document.version].yaml - Tenant APIs in OpenAPI 3.0 Spec
 
 ## Configurations
 - /resources/config.yml : Update below configuration to point to tenant content github repo
