@@ -20,22 +20,22 @@
   "apiVersions": [
       {
         "version": "1.0.0",
-        "versionType": "major",
+        "versionType": "minor",
         "releaseNotesPath": "/release-notes/release-notes-1.0.0.md",
         "apiSpecFileNames": ["api-1.0.0"]
       },
      {
-        "version": "1.0.1",
-        "versionType": "minor",
-        "releaseNotesPath": "/release-notes/release-notes-1.0.1.md",
-        "apiSpecFileNames": ["api-1.0.1"]
+        "version": "1.0.6-SNAPSHOT",
+        "versionType": "major",
+        "releaseNotesPath": "/release-notes/release-notes-1.0.6-SNAPSHOT.md",
+        "apiSpecFileNames": ["api-1.0.6-SNAPSHOT"]
       }
   ],
   "product": {
     "featured": true,
-    "logoURL": "URL",
-    "description": "description",
-    "longDescription": "longDecription",
+    "logoURL": "https://raw.githubusercontent.com/Fiserv/sample/develop/assets/images/dog-1710298_640.png",
+    "description": "This is a sample server Petstore server.",
+    "longDescription": "This is a sample server Petstore server.",
     "apiSpecification": "/v1/apis",
     "layout": "/v1/layouts",
     "documentation": "/v1/docs",
