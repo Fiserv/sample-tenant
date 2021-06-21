@@ -18,8 +18,8 @@ README.md file
 - https://editor.swagger.io/?docExpansion=none
 
 ## Asset Images Sources
--  https://pixabay.com/vectors/dog-head-white-background-labrador-1710298/#fromHistory
--  https://pixabay.com/photos/parrots-hand-park-feeding-bird-5350976/#fromHistory 
--  https://pixabay.com/photos/goldfish-aquarium-underwater-178584/#fromHistory
--  https://pixabay.com/photos/friends-cat-and-dog-pets-cat-dog-1149841/#fromHistory
+-  https://pixabay.com/vectors/dog-head-white-background-labrador-1710298
+-  https://pixabay.com/photos/parrots-hand-park-feeding-bird-5350976 
+-  https://pixabay.com/photos/goldfish-aquarium-underwater-178584
+-  https://pixabay.com/photos/friends-cat-and-dog-pets-cat-dog-1149841
 
