@@ -4,11 +4,14 @@ README.md file
     Sample tenants code for Fiserv Dev Studio
 
 ## Directory structure
+- /assets - upload your static assets like image etc. here
+- /assets/images - upload your images such as your logo etc. here
+- /config - add your config files here
+    1. document-explorer-definition.yaml: Yaml File that decribes the structure of files in the /docs
+    2. product_layout.yaml: Yaml spec for product layout page
+    3. tenant_api.json: Tenant Provider API
 - /docs - all markdown files are to be placed in this directory
-- /assets - upload your static assets like image etc here
-- tenant_api.json: Tenant Provider API
-- product_layout.yaml: Yaml spec for product layout page
-- api_swagger.yaml: Tenant APIs in OpenAPI 3.0 Spec
+- /references - include your spec files for various versions you intend to support 
 
 ## Configurations
 - /resources/config.yml : Update below configuration to point to tenant content github repo
