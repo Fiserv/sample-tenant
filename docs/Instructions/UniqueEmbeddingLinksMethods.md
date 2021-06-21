@@ -6,6 +6,6 @@
   To link/reference to another document/markdown
      "[Doc](?path=docs/Transactions/Charges.md)"
   ## Example:
-  - [Example1](https://github.com/Fiserv/sample/blob/develop/docs/Instructions/AddingImages.md)
-  - [Example2](https://github.com/Fiserv/sample/blob/develop/docs/Instructions/LinkToAdditionalMDSupport.md)
+  - [AddingImages.md](https://github.com/Fiserv/sample/blob/develop/docs/Instructions/AddingImages.md)
+  - [LinktoAdditionalMDSupport](https://github.com/Fiserv/sample/blob/develop/docs/Instructions/LinkToAdditionalMDSupport.md)
 
