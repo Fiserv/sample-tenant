@@ -13,9 +13,6 @@ README.md file
 - /docs - all markdown files are to be placed in this directory
 - /references/api-[document.version].yaml - Tenant APIs in OpenAPI 3.0 Spec
 
-## Configurations
-- /resources/config.yml : Update below configuration to point to tenant content github repo
-
 ## Spec Files Sources
 - https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml
 - https://editor.swagger.io/?docExpansion=none
