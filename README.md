@@ -12,3 +12,7 @@ README.md file
 
 ## Configurations
 - /resources/config.yml : Update below configuration to point to tenant content github repo
+
+## Sources
+- https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml
+- https://editor.swagger.io/?docExpansion=none
