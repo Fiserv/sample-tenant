@@ -158,11 +158,17 @@ featuredAPIs:
     language: Curl
     link: link to API Explorer
 useCases:
-  - title: Title 1
-    subtitle: Subtitle 1
+  - title: Find the Perfect Pet
+    subtitle: Pets
     description: > 
-      Insert description here.
-  - title: Title 2
-    subtitle: Subtitle 2
+      Customers can find their new best friend by checking which pets are available and browsing through pet images. 
+      Shopkeepers can easily update an existing pet's data by finding that pet's petId and add and delete pets to reflect their inventory.
+  - title: Effective and Effecient Inventory Management 
+    subtitle: Store
     description: > 
-      Insert description here. 
+      Shopkeepers are treated with an innovative petkeeping system that tracks orders with their respective orderIDs and can retrive shopkeepers' pet inventory by status with ease.
+   - title: User Account Management
+    subtitle: User
+    description: > 
+      Customers can customize their own shopping expereince by creating accounts that they can easily login and logout of.
+      Shopkeepers can keep track of their customers with this system.  
