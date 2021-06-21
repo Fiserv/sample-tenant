@@ -5,7 +5,7 @@
     [//]: #
     [YourImageHere]: <YourImageURLHere>
 
-See Examples:
+# See Examples
 - [getting-started.md](?path=docs/Getting-Started/getting-started.md)
 - [Goldfish.md](?path=docs/Pets/Fish/Goldfish.md)
 - [Parrots.md](?path=docs/Pets/Birds/Parrots.md)
