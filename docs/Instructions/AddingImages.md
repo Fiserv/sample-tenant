@@ -1,9 +1,9 @@
 # Format for Adding An Image
 
-![YourImageHere]
+"![YourImageHere]
 
 [//]: #
-[YourImageHere]: <YourImageURLHere>
+[YourImageHere]: <YourImageURLHere>"
 
 See Examples:
 - [getting-started.md](?path=docs/Getting-Started/getting-started.md)
