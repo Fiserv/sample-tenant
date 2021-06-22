@@ -4,4 +4,4 @@
 [//]: #
 [parrots]: <https://github.com/Fiserv/sample/blob/develop/assets/images/parrots.jpg>
 
-Learn about parrots from our [wiki page](?path=doc/Wiki.md)!
+Learn about parrots from our [wiki page](?path=/docs/Wiki.md)!
