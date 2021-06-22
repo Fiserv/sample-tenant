@@ -44,19 +44,19 @@
     "sandbox": "/v1/sandboxrun",
     "feature": [
       {
-        "name": "name",
+        "name": "sandbox",
         "value": true
       },
       {
-        "name": "name",
+        "name": "plugins",
         "value": false
       },
       {
-        "name": "name",
+        "name": "industryOptionsAPIExplorer",
         "value": false
       },
       {
-        "name": "name",
+        "name": "editParameterAPIExplorer",
         "value": true
       }
     ]
