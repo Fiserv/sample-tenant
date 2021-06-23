@@ -83,4 +83,4 @@
 
 ## Related Links
 - [Store.md](?path=docs/API/Store.md)
-- [User.md](?path=docs/API/Pets.md)
+- [User.md](?path=docs/API/User.md)
