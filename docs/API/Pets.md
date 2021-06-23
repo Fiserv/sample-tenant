@@ -1,31 +1,29 @@
 # Pets
+![Friends]
+
+[//]: #
+[Friends]: <https://github.com/Fiserv/sample/blob/develop/assets/images/friends-1149841_1920.jpg>
+
 ## Overview
 - Description:
-      - Quickly add, update, find, or delete your pets. You can manage all of your pets using this feature as well as upload pictures.
-    tags: ["pets", "api"]
-    bullets: ["Increase payment security and reduce risk", "No need to store personal customer information", "Less operational costs", "Improved customer experience"]
-    links: ["docs/Resources/API-Documents/Payments_VAS/Payment-Token.md"]
-  - title: Store
-    description: >
-      Place, find, or delete orders at your store. You can manage inventory and keep track of your store.
-    tags: ["store", "api"]
-    bullets: ["Faster acceptance than credit or debit", "Biometric security", "Global offering and acceptance"]
-    links: ["docs/Online-Mobile-Digital/Wallets-AltPayments/Apple-Pay/Apple-Pay.md"]
-  - title: User
-    description: >
-      You are also able to create, get, update, or delete your users. You are also able to log-in and log-out a user.
-    tags: ["user", "api"]
-    bullets: ["Modern technology stack", "Automated backoffice", "Fast testing, certification and implementation"]
-    links: ["docs/Resources/API-Documents/Use-Our-APIs.md"]
-    
-    featuredAPIs:
-  - name: Add Pet
-    description: Used to add a pet.
-    type: post
-    path: /pet
-    codeSample: '[json
-                  {
-                    "id": 0,
+    - Quickly add, update, find, or delete your pets. You can manage all of your pets using this feature as well as upload pictures.
+- Tags:
+    - "pets", "api"
+- Bullets:
+    - "Increase payment security and reduce risk", "No need to store personal customer information", "Less operational costs", "Improved customer experience"
+- Links:
+    - "docs/Resources/API-Documents/Payments_VAS/Payment-Token.md"
+
+## Featured APIs
+  - Add Pet
+    - Description: Add a pet to the inventory.
+    - Type: POST
+    - Path: /pet
+    - Language: Curl
+    - Link: link to API Explorer
+    - Code Sample:
+        -       '[json {
+                "id": 0,
                     "category": {
                       "id": 0,
                       "name": "string"
@@ -43,6 +41,42 @@
                     "status": "available"
                   }
                 ]'
-    
-- Link to other thingies
-- Api explorer
+  - Update Pet
+    - Description: Updates a pet in the inventory.
+    - Type: PUT
+    - Path: /pet
+    - Language: Curl
+    - Link: link to API Explorer
+    - Code Sample:
+        -       '[json
+                   {
+                    "id": 0,
+                    "category": {
+                      "id": 0,
+                      "name": "string"
+                    },
+                    "name": "doggie",
+                    "photoUrls": [
+                      "string"
+                    ],
+                    "tags": [
+                      {
+                        "id": 0,
+                        "name": "string"
+                      }
+                    ],
+                    "status": "available"
+                    }
+                  ]'
+
+## Use Case
+  - Find the Perfect Pet
+    - Subtitle: Pets
+    - Description:  
+      - Customers can find their new best friend by checking which pets are available and browsing through pet images. 
+      - Shopkeepers can easily update an existing pet's data by finding that pet's petId and add and delete pets to reflect their inventory.
+      
+
+## Related Links
+- [Store.md](?path=docs/API/Store.md)
+- [User.md](?path=docs/API/Pets.md)
