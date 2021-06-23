@@ -8,9 +8,13 @@
 - Description:
     - Quickly add, update, find, or delete your pets. You can manage all of your pets using this feature as well as upload pictures.
 - Tags:
-    - "pets", "api"
+    - "pets"
+    -  "api"
 - Bullets:
-    - "Increase payment security and reduce risk", "No need to store personal customer information", "Less operational costs", "Improved customer experience"
+    - "Increase payment security and reduce risk"
+    - "No need to store personal customer information"
+    - "Less operational costs"
+    -  "Improved customer experience"
 - Links:
     - "docs/Resources/API-Documents/Payments_VAS/Payment-Token.md"
 
