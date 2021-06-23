@@ -4,55 +4,11 @@
 [//]: #
 [Store]: <https://github.com/Fiserv/sample/blob/develop/assets/images/cat-840260_1920.jpg>
 
-## Overview
-- Description:
-    -  Place, find, or delete orders at your store. You can manage inventory and keep track of your store.
-- Tags:
-    - "store"
-    - "api"
-- Bullets:
-    - "Faster acceptance than credit or debit"
-    - "Biometric security"
-    - "Global offering and acceptance"
-- Links:
-    - "docs/Online-Mobile-Digital/Wallets-AltPayments/Apple-Pay/Apple-Pay.md"
-    
-
-## Featured APIs
-  - Place Order
-    - Description: Places order for a pet.
-    - Type: POST
-    - Path: /store/order
-    - Language: Curl
-    - Link: link to API Explorer
-    - Code Sample:
-        -       '[json
-                  {
-                    "id": 0,
-                    "petId": 0,
-                    "quantity": 0,
-                    "shipDate": "2021-06-21T21:55:37.319Z",
-                    "status": "placed",
-                    "complete": true
-                   }
-                  ]'
-  - Find Order
-    - Description: Find purchase order by ID.
-    - Type: GET
-    - Path: /store/order/{orderID}
-    - Language: Curl
-    - Link: link to API Explorer
-    - Code Sample:
-        -       '[json
-                  {
-                    "id": 0,
-                    "petId": 0,
-                    "quantity": 0,
-                    "shipDate": "2021-06-21T21:57:19.714Z",
-                    "status": "placed",
-                    "complete": true
-                  }
-                  ]'
+## Access to Petstore orders
+  - Returns pet inventories by status
+  - Place an order for a pet
+  - Find purchase order by ID
+  - Delete purchase order by ID
 
 ## Use Case
   - Effective and Effcient Inventory Management 
