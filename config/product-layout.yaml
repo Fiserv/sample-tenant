@@ -139,7 +139,7 @@ useCases:
     description: > 
       Customers can find their new best friend by checking which pets are available and browsing through pet images. 
       Shopkeepers can easily update an existing pet's data by finding that pet's petId and add and delete pets to reflect their inventory.
-  - title: Effective and Effecient Inventory Management 
+  - title: Effective and Effcient Inventory Management 
     subtitle: Store
     description: > 
       Shopkeepers are treated with an innovative petkeeping system that tracks orders with their respective orderIDs and can retrive shopkeepers' pet inventory by status with ease.
