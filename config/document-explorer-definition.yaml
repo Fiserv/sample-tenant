@@ -1,5 +1,21 @@
 - sections:
   - title: Getting Started
-    link: docs/getting-started.md
-    open: true
-    
+    link: docs/Getting-Started/getting-started.md
+- sections:
+  - title: API
+    sections:
+    - title: Pets
+      link: docs/API/Pets.md
+    - title: Store
+      link: docs/API/Store.md
+    - title: User
+      link: docs/API/User.md
+- sections:
+  - title: Resources
+    sections:
+      - title: Guides
+        sections:
+          - title: How to
+            links: docs/Guides/HowToDo.md
+      - title: Important Links 
+        links: docs/Resources/ImportantLinks.md
