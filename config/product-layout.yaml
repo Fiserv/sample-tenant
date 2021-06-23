@@ -60,7 +60,7 @@ featuredAPIs:
   - name: Update Pet
     description: Updates a pet
     type: put
-    path: /payments-vas/v1/tokens
+    path: /pet
     codeSample: '[json
                    {
                     "id": 0,
