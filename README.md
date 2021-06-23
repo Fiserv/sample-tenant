@@ -22,4 +22,7 @@ README.md file
 -  https://pixabay.com/photos/parrots-hand-park-feeding-bird-5350976 
 -  https://pixabay.com/photos/goldfish-aquarium-underwater-178584
 -  https://pixabay.com/photos/friends-cat-and-dog-pets-cat-dog-1149841
+-  https://pixabay.com/illustrations/cat-pet-store-cats-shop-black-cat-840260/
+-  https://pixabay.com/vectors/walk-dog-silhouette-running-pet-4143841/
+
 
