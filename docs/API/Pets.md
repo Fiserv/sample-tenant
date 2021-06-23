@@ -5,13 +5,13 @@
 [Friends]: <https://github.com/Fiserv/sample/blob/develop/assets/images/friends-1149841_1920.jpg>
 
 ## Everything About Your Pet
-  -Upload an image
-  -Add a new pet to the store
-  -Update an existing pet
-  -Finds Pets by Status
-  -Find pet by ID
-  -Updates a pet in the store with form data
-  -Deletes a pet
+  - Upload an image
+  - Add a new pet to the store
+  - Update an existing pet
+  - Finds Pets by Status
+  - Find pet by ID
+  - Updates a pet in the store with form data
+  - Deletes a pet
 
 ## Use Case
   - Find the Perfect Pet
