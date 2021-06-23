@@ -4,39 +4,17 @@
 [//]: #
 [User]: <https://github.com/Fiserv/sample/blob/develop/assets/images/walk-4143841_1280.png>
 
-## Overview
-- Description:
-    -  You are also able to create, get, update, or delete your users. You are also able to log-in and log-out a user.
-- Tags:
-    - "user"
-    - "api"
-- Bullets:
-    - "Modern technology stack"
-    - "Automated backoffice"
-    - "Fast testing, certification and implementation"
-- Links:
-    - "docs/Resources/API-Documents/Use-Our-APIs.md"
+## Operations About User
+- Creates list of users with given input array
+- Get user by username
+- Update user
+- Delete user
+- Logs user into the system
+- Logs out current logged in user session
+- Logs out current logged in user session
+- Creates a list of users with given input array
+- Creates user
 
-## Featured APIs
-  - Create User
-    - Description: Creates a new user.
-    - Type: POST
-    - Path: /user
-    - Language: Curl
-    - Link: link to API Explorer
-    - Code Sample:
-        -       '[json
-                  {
-                    "id": 0,
-                    "username": "string",
-                    "firstName": "string",
-                    "lastName": "string",
-                    "email": "string",
-                    "password": "string",
-                    "phone": "string",
-                    "userStatus": 0
-                   }
-                  ]'
 
 ## Use Case
   - Effective and Effcient Inventory Management 
